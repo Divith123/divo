@@ -1,13 +1,11 @@
-#'6133585030:AAGXUU3Cm2eLJDHduTLF3oIl5-kRBWHg1JE'
-#'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'
 import requests
 import json
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-TOKEN = '6133585030:AAGXUU3Cm2eLJDHduTLF3oIl5-kRBWHg1JE'
+TOKEN = 'BOT TOKEN'
 API_URL = 'https://api.openai.com/v1/chat/completions'
-API_KEY = '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'
+API_KEY = 'CHAT GPT API'
 
 # Dictionary to store personal details
 personal_details = {}
